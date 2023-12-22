@@ -1,0 +1,36 @@
+.most-popular-item {
+    flex: 1 25%;
+    align-content: space-between;
+}
+.card-wrapper {
+    background-color: var(--color-dark);
+    border-radius: var(--border-radius-secondary);
+    -webkit-border-radius: var(--border-radius-secondary);
+    -moz-border-radius: var(--border-radius-secondary);
+    -ms-border-radius: var(--border-radius-secondary);
+    -o-border-radius: var(--border-radius-secondary);
+    padding: var(--padding-secondary);
+    margin: 10px;
+    min-height: 310px;
+}
+.card-wrapper-image {
+    width: 100%;
+    margin-bottom: var(--margin-secondary);
+    border-radius: var(--border-radius-secondary);
+    -webkit-border-radius: var(--border-radius-secondary);
+    -moz-border-radius: var(--border-radius-secondary);
+    -ms-border-radius: var(--border-radius-secondary);
+    -o-border-radius: var(--border-radius-secondary);
+}
+.most-popular-item-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.most-popular-item-title {
+    font-size: 20px;
+    line-height: 1.2;
+}
+.most-popular-item-content ul li span:first-child {
+    margin-right: 10px;
+}

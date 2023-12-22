@@ -1,0 +1,22 @@
+import './Footer.css'
+
+const footer = () => {
+
+  return (
+    <footer>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-lg-12'>
+            <p>
+              Copyright &copy; 2036 <a href='/#'>Cyborg Gaming</a> Company. All Rights Reversed.
+              <br/> Design: <a href="/https://templatemo.com" target='_blank' title='Free Css templates'>TemplateMo</a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  )
+}
+
+export default footer
